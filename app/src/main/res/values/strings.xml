@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Infinity Music Player</string>
+    <string name="labelLibrary"> Infinity Player</string>
+    <string name="labelSongsActivity">Songs</string>
+    <string name="labelArtistsActivity">Artists</string>
+    <string name="labelAlbumsActivity">Albums</string>
+    <string name="labelNowPlayingActivity">Now Playing</string>
+    <string name="number_of_artists">%d artists</string>
+    <string name="number_of_songs">%d songs</string>
+    <string name="number_of_albums">%d albums</string>
+    <string name="button_songs">Songs</string>
+    <string name="button_artists">Artists</string>
+    <string name="button_albums">Albums</string>
+    <string name="text_view_library">Library</string>
+    <string name="text_view_now_playing"><![CDATA[Now Playing -->]]></string>
+    <string name="text_view_song_label">Song Title</string>
+    <string name="text_view_artist_label">Artist Name</string>
+    <string name="text_view_album_label">Album Title</string>
+    <string name="text_view_to_library"> <![CDATA[<-- To Library]]></string>
+</resources>

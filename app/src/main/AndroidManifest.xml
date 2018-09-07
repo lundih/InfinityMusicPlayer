@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.infinitymusicplayer">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_custom_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_custom_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/labelLibrary">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/labelSongsActivity" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="@string/labelArtistsActivity" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="@string/labelAlbumsActivity" />
+        <activity
+            android:name=".NowPlaying"
+            android:label="@string/labelNowPlayingActivity"/>
+    </application>
+
+</manifest>

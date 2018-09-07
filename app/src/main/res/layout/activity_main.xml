@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_library"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSongs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/button_songs"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:gravity="left|center_vertical"
+        android:padding="24dp"/>
+
+    <Button
+        android:id="@+id/buttonArtists"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/button_artists"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/button_albums"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:gravity="left|center_vertical"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="9"
+        android:layout_margin="3dp">
+
+        <Button
+            android:id="@+id/buttonNowPlaying"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:background="@drawable/icon_play"
+            android:backgroundTint="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:text="@string/text_view_now_playing"
+            android:fontFamily="casual"
+            android:textColor="@color/text"
+            android:background="@color/colorPrimary"
+            android:textSize="16sp"
+            android:paddingLeft="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

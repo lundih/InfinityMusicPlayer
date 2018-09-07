@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ArtistsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="92">
+
+        <TextView
+            android:id="@+id/textViewArtistCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/text"
+            android:fontFamily="casual"
+            android:paddingLeft="8dp"/>
+
+        <ListView
+            android:id="@+id/listViewArtists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="8"
+        android:layout_margin="3dp">
+
+        <Button
+            android:id="@+id/buttonNowPlaying"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:background="@drawable/icon_play"
+            android:backgroundTint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/textViewNowPlaying"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:text="@string/text_view_now_playing"
+            android:fontFamily="casual"
+            android:textColor="@color/text"
+            android:background="@color/colorPrimary"
+            android:textSize="16sp"
+            android:paddingLeft="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
